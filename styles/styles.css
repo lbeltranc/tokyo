@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* resets */
+/* box sizing reset */
+html {
+	box-sizing: border-box;
+}
+*, *::before, *:after {
+	box-sizing: inherit;
+}
+/* responsive image reset 
+-makes images fluid abd responsive to variable width conrainers... */
+img {
+	/* max-width: 100%; */
+	height: auto;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+h1,h2,h3 {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+a {
+	display:   block;
+    text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+	font-family: 'Muli', sans-serif;
+	
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+	background-color: white;
+	
+    
+}
+
+/* banner style */
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner img {
+	/* margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%; */
+    object-fit: cover;
+
+}
+
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 8em;
+	text-shadow: 4px 4px #000000c7;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+/* index nav bar styles */
+
+
+.index-nav .items {
+
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 10px;
+	box-shadow: 3px 3px #c0c0c0;
+	border: 1px solid black;
+}
+
+.index-nav a {
+	color: black;
+	display: block;
+	padding: 30px;
+
+}
+
+.index-nav a:hover, a:active, a:focus {
+	background-color: #d30000c4;
+}
+
+footer {
+	
+	padding: 10px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+
+
+
+/* breakpoints */
+
+@media (min-width: 560px){
+
+	.index-nav {
+		margin: 30px;
+		align-content: center;
+	}
+
+	.index-nav ul {
+		display: flex;
+	}
+
+	.index-nav li {
+		width: 80%;
+
+	}
+
+	footer {
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer-col2 {
+		text-align: right;
+	}
+
+
+
+}
+
+
+
+

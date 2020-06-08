@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* resets */
+/* box sizing reset */
+html {
+	box-sizing: border-box;
+}
+*, *::before, *:after {
+	box-sizing: inherit;
+}
+/* responsive image reset 
+-makes images fluid abd responsive to variable width conrainers... */
+/* img {
+	max-width: 100%;
+	height: auto;
+} */
+
+/* main styles */
+
+.about h2 {
+    padding-top: 0.8em;
+    padding-left: 0.8em;
+}
+
+.about p {
+    padding: 1em;
+    justify-content: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    padding:0 10%;
+}
+
+/* end of main styles */
+
+
+
+
+/* end of footer */
+
+/* breakpoints */
+

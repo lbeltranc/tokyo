@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* resets */
+/* box sizing reset */
+html {
+	box-sizing: border-box;
+}
+*, *::before, *:after {
+	box-sizing: inherit;
+}
+
+/* main styles */
+
+.places img {
+    max-width: 100%;
+    height: auto;
+    padding:0 3%;
+}
+
+.places .text-cont {
+    padding: 1em;
+}
+
+.places h2 {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.places .cont {
+    padding-bottom: 8px;
+}
+
+.description {
+    padding: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+
+
+@media (min-width: 700px){
+
+
+    /* main */
+
+    .places .cont {
+        display: flex;
+        padding-left: 1em;
+        padding-bottom: 8px;
+    }
+
+    .places h2  {
+        padding: 0.5em;
+    }
+
+    .places figure {
+        margin: 0;
+        flex: 0 0 300px;
+    }
+
+
+    /* main */
+
+}

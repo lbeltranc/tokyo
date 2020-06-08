@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* resets */
+/* box sizing reset */
+html {
+	box-sizing: border-box;
+}
+*, *::before, *:after {
+	box-sizing: inherit;
+}
+
+/* main */
+
+.credits {
+    padding: 1em;
+}
+
+.credits ul {
+    padding: 2em;
+}
+
+.credits li {
+    list-style: circle;
+}
+
+.credits a {
+    color: black;
+    text-decoration-line: underline;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+.credits a:hover {
+    color: #d30000c4;
+    text-decoration-line: underline;
+}
+/* end main */
